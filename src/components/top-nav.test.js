@@ -7,4 +7,13 @@ describe('<TopNav />', () => {
     it('Renders without crashing', () => {
         shallow(<TopNav />);
     });
+    it('Should call onNewGame when New Game is clicked', () => {
+        const callback = jest.fn();
+        const wrapper = shallow(<TopNav onRestartGame={callback} />);
+        const link = wrapper.find('.new');
+        link.simulate('click', {
+            preventDefault() {}
+        });
+        expect(callback).toHaveBeenCalled();
+    });
 });
