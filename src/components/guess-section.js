@@ -1,5 +1,4 @@
 import React from 'react';
-import {connect} from 'react-redux';
 import Feedback from './feedback';
 import GuessForm from './guess-form';
 
