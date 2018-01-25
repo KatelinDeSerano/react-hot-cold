@@ -1,5 +1,5 @@
 import {createStore} from 'redux';
 
-import {hotColdGameReducer} from './reducers';
+import {reducer} from './reducers/index.js';
 
-export default createStore(hotColdGameReducer);
+export default createStore(reducer);

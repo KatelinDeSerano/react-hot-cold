@@ -1,6 +1,8 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import './top-nav.css';
+import {restartGame} from '../actions';
+
 
 export function TopNav(props) {
   return (
