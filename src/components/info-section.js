@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {connect} from 'react-redux';
 import './info-section.css';
 
 export default function InfoSection(props) {
@@ -16,3 +16,4 @@ export default function InfoSection(props) {
     </section>
   );
 }
+

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {connect} from 'react-redux';
 import './guess-form.css';
 
 export default class GuessForm extends React.Component {
@@ -41,3 +41,5 @@ export default class GuessForm extends React.Component {
     );
   }
 }
+
+

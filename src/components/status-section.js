@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {connect} from 'react-redux';
 import GuessList from './guess-list';
 import GuessCount from './guess-count';
 import AuralStatus from './aural-status';

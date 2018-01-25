@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {connect} from 'react-redux';
 import './guess-count.css';
 
 export default function GuessCount(props) {
@@ -12,3 +12,4 @@ export default function GuessCount(props) {
         </h2>
     );
 }
+
